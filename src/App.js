@@ -1,22 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 
+// https://www.w3schools.com/TAGS/default.ASP for Tags
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        Hello
+
+
+        <a href="https://www.google.com">
+          this is a hyperlink to google
         </a>
+
+        <b>
+          Bold text?
+        </b>
+
+        <body>
+          <div>
+
+          </div>
+          <div>
+            
+          </div>
+        </body>
+
       </header>
     </div>
   );

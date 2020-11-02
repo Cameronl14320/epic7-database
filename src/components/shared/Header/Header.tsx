@@ -1,17 +1,25 @@
-import react from 'react';
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { css, jsx } from '@emotion/core';
+
 import './Header.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Gear from "./Gear";
-import Homepage from "./Homepage";
+import Gear from "../../../pages/gear/Gear";
+import Homepage from "../../../Homepage";
+import { Button } from "../Buttons/Button";
+import { Component } from 'react';
 
 function Header() {
     return (
         <Router>
-            <div className="static-header">
+            <div css={css`
+                text-align: left;
+                background-color: black;
+            `}>
                 <ul>
                     <li>
-                        <Link to="/" className="header-logo">Logo</Link>
+                        <Link to="/">Logo</Link>
                     </li>
                     <li>
                         <Link to="/Gear">Gear</Link>

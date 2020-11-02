@@ -1,13 +1,43 @@
-.Header {
+.static-header {
     text-align: left;
+    background-color: black;
 }
 
+.header-logo {
+    font-size: 30px;
+}
+
+.sub-header {
+    text-align: left;
+    background-color: gray;
+}
+
+.sub-ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px;
+}
+
+.sub-li {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.sub-li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
 
 ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 li {
@@ -16,3 +46,10 @@ li {
     text-align: center;
     padding: 10px;
 }
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+

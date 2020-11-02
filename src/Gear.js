@@ -9,11 +9,14 @@ import './Body.css';
 const Gear = () => {
   return (
     <div className="Gear">
-      <header className="static-header">
-        Hello
+      <header className="sub-header">
+        <ul className="sub-ul">
+          <li className="sub-li">Hello</li>
+          <li className="sub-li">Bye</li>
+        </ul>
       </header>
       <div className="Background">
-        Test
+        Hey, this is the Gear page
       </div>
     </div>
   );

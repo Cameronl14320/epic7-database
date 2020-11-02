@@ -8,22 +8,19 @@ import Homepage from "./Homepage";
 function Header() {
     return (
         <Router>
-            <div className="Header">
+            <div className="static-header">
                 <ul>
                     <li>
-                        <Link to="/">Logo</Link>
+                        <Link to="/" className="header-logo">Logo</Link>
                     </li>
                     <li>
                         <Link to="/Gear">Gear</Link>
                     </li>
-                    <li>
-                        <Link to="/Homepage">Homepage</Link>
-                    </li>
                 </ul>
             </div>
+        
             <Route exact path ="/" component={Homepage} />
             <Route path ="/Gear" component={Gear} />
-            <Route path ="/Homepage" component={Homepage} />
         </Router>
     );
 }

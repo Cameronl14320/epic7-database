@@ -17,7 +17,7 @@ function Homepage() {
   return (
     <Router>
         <div className="Background">
-          <Link to = "/Gear">Hello</Link>
+          Hey, this is the Homepage
         </div>
     </Router>
   );
